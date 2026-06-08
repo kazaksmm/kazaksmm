@@ -405,3 +405,58 @@ a {
   font-style: normal;
   font-display: swap;
 }
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.col--58,
+.col--42 {
+  width: 100%;
+}
+
+.portf-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portf-info_desc-wrap {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-list-wrap {
+  width: 100%;
+}
+
+.portf-link-block-wrap {
+  width: 100%;
+}
+
+.portf-link-list-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.portf-link-wrap {
+  width: 100%;
+}
