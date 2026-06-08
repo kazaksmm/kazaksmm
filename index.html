@@ -51,101 +51,120 @@
   </noscript>
   <!-- End Meta Pixel Code -->
 
-  <style>
-    .section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      padding-top: 64px;
-      padding-bottom: 64px;
-    }
+ <style>
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 
-    .container {
-      width: 100%;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 24px;
-      padding-right: 24px;
-    }
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
-    .row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 64px;
-    }
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
 
-    .col--58,
-    .col--42 {
-      width: 100%;
-    }
+.col--58,
+.col--42 {
+  width: 100%;
+}
 
-    .portf-wrap {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.portf-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .portf-info_desc-wrap {
-      max-width: 420px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+/* Important fix */
+.portf-info_desc-wrap {
+  max-width: 420px;
+  margin-left: 470px;
+  margin-top: -90px;
+}
 
-    .link-list-wrap {
-      width: 100%;
-    }
+/* Portfolio links block */
+.link-list-wrap {
+  width: 100%;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    .portf-link-block-wrap {
-      width: 100%;
-    }
+.portf-link-block-wrap {
+  width: 100%;
+}
 
-    .portf-link-list_h-wrap {
-      margin-bottom: 16px;
-    }
+.portf-link-list_h-wrap {
+  margin-bottom: 16px;
+}
 
-    .portf-link-list-wrap {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
+.portf-link-list-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
 
-    .portf-link-wrap {
-      width: 100%;
-    }
+.portf-link-wrap {
+  width: 100%;
+}
 
-    @media (max-width: 767px) {
-      .section {
-        min-height: auto;
-        padding-top: 48px;
-        padding-bottom: 48px;
-      }
+@media (max-width: 991px) {
+  .portf-info_desc-wrap {
+    margin-left: 360px;
+    margin-top: -60px;
+  }
+}
 
-      .row {
-        gap: 40px;
-      }
+@media (max-width: 767px) {
+  .section {
+    min-height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 
-      .portf-wrap {
-        flex-direction: column;
-        text-align: center;
-      }
+  .row {
+    gap: 48px;
+  }
 
-      .portf-info_desc-wrap {
-        max-width: 100%;
-      }
+  .portf-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
 
-      .portf-link-list-wrap {
-        grid-template-columns: 1fr;
-      }
-    }
+  .portf-info_desc-wrap {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 32px;
+    text-align: center;
+  }
 
-    @media (max-width: 360px) {
-      .portf-info_name {
-        font-size: 24px;
-      }
-    }
-  </style>
+  .portf-info-list-wrap {
+    align-items: center;
+  }
+
+  .portf-link-list-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 360px) {
+  .portf-info_name {
+    font-size: 24px;
+  }
+}
+</style>
 </head>
 
 <body>
